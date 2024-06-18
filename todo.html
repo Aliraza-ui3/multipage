@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App - Multi-Page Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="todo.html">Todo App</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="Todo">
+            <h2>Todo App</h2>
+            <div class="input">
+                <input type="text" placeholder="Enter your text" id="input" class="input-button">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul class="ulu" id="task">
+                <!-- <li class="hello">Task 1</li>
+                <li class="hello">Task 2</li>
+                <li class="hello">Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="js/todo.js"></script>
+</body>
+</html>
